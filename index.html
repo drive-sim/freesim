@@ -16,7 +16,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <meta name="google-site-verification" content="sdz4d86QkTWaWHiWkS9mtiln38Bu0wirf94l-z1MkhQ" />
 
-
   <title>FreeSim: Toward Free-viewpoint Camera Simulation in Driving Scenes</title>
 
   <!-- Google tag (gtag.js) -->
@@ -47,6 +46,7 @@
   <link href="data/icons/wand_white.svg" rel="icon" media="(prefers-color-scheme: dark)" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <style>
     /* Increase text size for author names */
     .author-col {
@@ -56,6 +56,21 @@
     /* Decrease text size for the acknowledgment section */
     .acknowledgment-text {
       font-size: 1em; /* Reduced from 1.5em */
+    }
+
+    /* Style for the icon and text */
+    .icon-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .icon-text {
+      margin-top: 5px;
+      font-size: 1em; /* Adjust size as needed */
+      font-weight: bold;
+      color: #000; /* Customize the color */
     }
   </style>
 </head>
@@ -89,12 +104,17 @@
       </div>
 
       <div class="link-labels base-row">
-        <div class="base-col icon-col"><a href="http://arxiv.org/abs/2412.03566" target="_blank" class="link-block"><img
+        <div class="base-col icon-col">
+          <a href="http://arxiv.org/abs/2412.03566" target="_blank" class="link-block">
+            <img
               src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png"
               alt="paper"
               sizes="(max-width: 479px) 12vw, (max-width: 767px) 7vw, (max-width: 991px) 41.8515625px, 56.6953125px"
               srcset="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01-p-500.png 500w, https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png 672w"
-              class="icon-img" /></a></div>
+              class="icon-img" />
+            <div class="icon-text">arxiv</div>
+          </a>
+        </div>
       </div>
 
       <h1 class="tldr">
