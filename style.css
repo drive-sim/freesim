@@ -74,6 +74,12 @@ body {
     margin-right: -10px;
 }
 
+.publication {
+    margin-left: -10px;
+    margin-right:-10px;
+    font-size:32px;    
+  }
+  
 .base-col {
     position: relative;
     float: left;
@@ -128,13 +134,14 @@ body {
 
 .icon-col {
     width: 33.33333%;
+    margin-left:34%;
 }
 
 .icon-img {
     max-width: 40%;
     margin-right: auto;
-    width: 33.333333%;
-    margin-left: 34%;
+    margin-bottom: 1px;
+    margin-left: auto;
     padding-top: 0px;
 }
 
@@ -160,7 +167,6 @@ body {
     margin-left: auto;
     text-align: center;
 }
-
 
 .link-labels {
     display: inline-block;
