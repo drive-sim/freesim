@@ -76,8 +76,8 @@ body {
 
 .publication {
     margin-left: -10px;
-    margin-right:-10px;
-    font-size:32px;    
+    margin-right: -10px;
+    font-size: 32px;    
   }
   
 .base-col {
@@ -132,10 +132,6 @@ body {
     letter-spacing: 0;
 }
 
-.icon-col {
-    width: 33.33333%;
-    margin-left:34%;
-}
 
 .icon-img {
     max-width: 40%;
@@ -613,4 +609,5 @@ input:checked + .slider:before {
         font-size: 20px;
         line-height: 20px;
 
+    }
 }
